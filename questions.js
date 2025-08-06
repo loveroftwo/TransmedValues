@@ -8,6 +8,8 @@ export const Qs = {
 	RED_FLAG_ANDRO_M: 7,
 	DUOSEX_NULLSEX: 8,
 	GENDER_ROLES: 9,
+	ASSIMILATE: 10,
+	TRANSGENDER_NOT_TRANS: 11,
 }
 
 export const questions = [
@@ -15,7 +17,7 @@ export const questions = [
 	{ "question": "Placeholder", "effect": { "binary": 0, "strict": 0, "pride": 0, "protection": 0, "tolerance": 0, "unity": 0}},
 	*/
 	{ "question": "Genital dysphoria is required to be transsexual.", "effect": { "strict": 1 }, id: Qs.GENITAL_DYSPHORIA_REQUIRED },
-	{ "question": "Transsexuals should try to hide it as much as possible, for the betterment of themselves and society.", "effect": { "pride": -1 } },
+	{ "question": "Transsexuals should try to assimilate as their target sex and hide their transsexuality as much as possible, for the betterment of themselves and society.", "effect": { "pride": -1 }, id: Qs.ASSIMILATE },
 	{ "question": "It is not possible to get the trans label back; we should just find a new one.", "effect": { "protection": -1}},
 	{ "question": "I am proud to be trans.", "effect": { "pride": 1 }, id: Qs.PROUD },
 	{ "question": "Most people are straight, so the fact that so many \"transgender men\" nowadays are androphilic is already a red flag that they're not actually transsexuals.", "effect": { "tolerance": -1 }, id: Qs.RED_FLAG_ANDRO_M },
@@ -29,7 +31,7 @@ export const questions = [
 	{ "question": "A transsexual isn't \"less trans\" because they're gay.", "effect": { "tolerance": 1 }, id: Qs.TRANS_NOT_LESS_TRANS },
 	{ "question": "I prefer the term \"sex dysphoria\" over \"gender dysphoria\".", "effect": {"strict": 1} },
 	{ "question": "Iran isn't transmedicalist enough.", "effect": { "strict": 1 }, id: Qs.IRAN_NOT_TRANSMED_ENOUGH },
-	{ "question": "\"Transgender\" people aren't trans at all.", "effect": {"protection": 1} },
+	{ "question": "\"Transgender\" people aren't trans at all.", "effect": {"protection": 1}, id: Qs.TRANSGENDER_NOT_TRANS },
 	{ "question": "Trying to get right-wingers to see our side is a lost cause.", "effect": {"unity": -1} },
 	{ "question": "When it comes to disclosure, I think that in pretty much all cases except sometime after entering a romantic relationship with somebody and before sex, \"don't ask, don't tell\" is a good philosophy.", "effect": {"pride": -1} },
 	{ "question": "Cultural third-genders aren't genders in the way that male and female are.", "effect": { "binary": 1} },
