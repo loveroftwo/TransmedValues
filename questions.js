@@ -5,7 +5,8 @@ export const Qs = {
 	GENITAL_DYSPHORIA_REQUIRED: 4,
 	IRAN_NOT_TRANSMED_ENOUGH: 5,
 	TRANS_NOT_LESS_TRANS: 6,
-	RED_FLAG_ANDRO_M: 7
+	RED_FLAG_ANDRO_M: 7,
+	DUOSEX_NULLSEX: 8,
 }
 
 export const questions = [
@@ -18,7 +19,7 @@ export const questions = [
 	{ "question": "Most people are straight, so the fact that so many \"transgender men\" nowadays are androphilic is already a red flag that they're not actually transsexuals.", "effect": { "tolerance": -1 }, id: Qs.RED_FLAG_ANDRO_M },
 	{ "question": "There are only two genders.", "effect": { "binary": 1 }, id: Qs.TWO_GENDERS },
 	{ "question": "Transsexuals should try to hide it as much as possible, for the betterment of themselves and society.", "effect": {"pride": -1} },
-	{ "question": "Duosex and nullsex are valid identities.", "effect": { "binary": -1} },
+	{ "question": "Duosex and nullsex are valid identities.", "effect": { "binary": -1}, id: Qs.DUOSEX_NULLSEX },
 	{ "question": "Everyone is non-binary to an extent.", "effect": { "binary": -1 } },
 	{ "question": "Assimilation is a crucial aspect of transsexual liberation.", "effect": { "pride": -1 } },
 	{ "question": "Gender should be abolished.", "effect": { "binary": -1 }, id: Qs.ABOLISH_GENDER },
@@ -33,4 +34,8 @@ export const questions = [
 	{ "question": "Cultural third-genders aren't genders in the way that male and female are.", "effect": { "binary": 1} },
 	{ "question": "Cultural third-genders have absolutely no merit.", "effect": { "binary": 1} },
 	{ "question": "Cutting ties with \"extremists\" isn't as important as transsexual liberation, if at all.", "effect": { "unity": 1} },
+	{ "question": "I find it amusing when homosexuals are transphobic.", "effect": { "tolerance": -1} },
+	{ "question": "It isn't contradictory for a transsexual to be far-left.", "effect": { "unity": 1} },
+	{ "question": "It isn't contradictory for a transsexual to be far-right.", "effect": { "unity": 1} },
+	{ "question": ".", "effect": { "unity": 1} },
 ];

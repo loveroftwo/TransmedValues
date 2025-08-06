@@ -19,21 +19,21 @@ export const ideologies = [
 			[Qs.PROUD]: a.DISAGREE,
 			[Qs.ABOLISH_GENDER]: a.DISAGREE,
 			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.AGREE,
-			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.P_DISAGREE,
+			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.NEUTRAL,
 			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
 			[Qs.RED_FLAG_ANDRO_M]: a.P_DISAGREE,
 		}
 	},
 	{
 		"name": "Reactionary Transmedicalism",
-		"desc": "Reactionary transmedicalists are radical transmedicalists who believe that society must return to the usual male and female model. They tend to believe that you are either born male or female; transsexuals are simply an exception because they are low in number anyway. Many of them may even hope for something to be developed to \"eradicate\" transsexualism from future births.",
+		"desc": "Reactionary transmedicalists are radical transmedicalists who believe that society must return to the usual male and female model. They tend to believe that you are either born male or female and that transsexuals (as well as some intersex people) are a pragmatic exception. Many of them may even hope for something to be developed to \"eradicate\" transsexualism from future births.",
 		"stats": {
 			[Qs.TWO_GENDERS]: a.S_AGREE,
 			[Qs.PROUD]: a.S_DISAGREE,
 			[Qs.ABOLISH_GENDER]: a.S_DISAGREE,
 			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_AGREE,
 			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_AGREE,
-			[Qs.TRANS_NOT_LESS_TRANS]: a.P_AGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.AGREE,
 			[Qs.RED_FLAG_ANDRO_M]: a.AGREE,
 		}
 	},
@@ -99,4 +99,13 @@ export const ideologies = [
 			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE,
 		}
 	},
+	/*{
+		"name": "Transpopulism",
+		"desc": "Transpopulists believe that we must ONLY do what the public wants, often forfeiting fundamental transsexual rights and other liberties in the process.",
+		"stats": {
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_AGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.DISAGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.AGREE,
+		}
+	},*/
 ];
