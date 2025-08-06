@@ -1,470 +1,102 @@
-ideologies = [
-    {
-        "name": "Anarcho-Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
-        }
-    },
-    {
-        "name": "Libertarian Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Trotskyism",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Marxism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
-    },
-    {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Stalinism/Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Religious Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Religious Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Democratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Left-Wing Populism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Christian Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Progressivism",
-        "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
-        }
-    },
-    {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
-    },
-    {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Technocracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Centrist",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Liberalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Religious Anarchism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Right-Wing Populism",
-        "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Moderate Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Reactionary",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Social Libertarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarianism",
-        "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Nazism",
-        "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Autocracy",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Fascism",
-        "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Conservatism",
-        "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Neo-Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
-        }
-    },
-    {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Neo-Conservatism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Fundamentalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Libertarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Market Anarchism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Objectivism",
-        "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
-        }
-    },
-    {
-        "name": "Totalitarian Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Ultra-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Anarcho-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    }
+import { Qs } from "./questions.js";
+
+export const a = {
+	S_AGREE: 1.0,
+	AGREE: 0.5,
+	P_AGREE: 0.25,
+	NEUTRAL: 0.0,
+	P_DISAGREE: -0.25,
+	DISAGREE: -0.5,
+	S_DISAGREE: -1.0
+}
+
+export const ideologies = [
+	{
+		"name": "Radical Transmedicalism",
+		"desc": "Radical transmedicalists believe in rights for transsexuals only, with non-binary people excluded from this.",
+		"stats": {
+			[Qs.TWO_GENDERS]: a.S_AGREE,
+			[Qs.PROUD]: a.DISAGREE,
+			[Qs.ABOLISH_GENDER]: a.DISAGREE,
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.AGREE,
+			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.P_DISAGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.P_DISAGREE,
+		}
+	},
+	{
+		"name": "Reactionary Transmedicalism",
+		"desc": "Reactionary transmedicalists are radical transmedicalists who believe that society must return to the usual male and female model. They tend to believe that you are either born male or female; transsexuals are simply an exception because they are low in number anyway. Many of them may even hope for something to be developed to \"eradicate\" transsexualism from future births.",
+		"stats": {
+			[Qs.TWO_GENDERS]: a.S_AGREE,
+			[Qs.PROUD]: a.S_DISAGREE,
+			[Qs.ABOLISH_GENDER]: a.S_DISAGREE,
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_AGREE,
+			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_AGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.P_AGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.AGREE,
+		}
+	},
+	{
+		"name": "Neotransmedicalism",
+		"desc": "Neotransmedicalists believe in rights for transsexuals and non-binary people, usually under the pretense that, while NB people aren't trans, they still have dysphoria of some kind.",
+		"stats": {
+			[Qs.TWO_GENDERS]: a.DISAGREE,
+			[Qs.PROUD]: a.P_DISAGREE,
+			[Qs.ABOLISH_GENDER]: a.DISAGREE,
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.P_DISAGREE,
+			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE
+		}
+	},
+	{
+		"name": "Gender Abolitionism",
+		"desc": "Gender abolitionists believe that gender is an oppressive social construct that must be abolished.",
+		"stats": {
+			[Qs.TWO_GENDERS]: a.S_DISAGREE,
+			[Qs.ABOLISH_GENDER]: a.S_AGREE,
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_DISAGREE,
+			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.S_DISAGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE
+		}
+	},
+	{
+		"name": "Blanchardism",
+		"desc": "Followers of Ray Blanchard's school of thought in terms of transsexuality (Blanchardians) believe that (MtF) trans people can be separated into two categories: HSTS (androphilic) and AGP (gynephilic).",
+		"stats": {
+			[Qs.PROUD]: a.DISAGREE,
+			[Qs.ABOLISH_GENDER]: a.DISAGREE,
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_AGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.S_DISAGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.S_AGREE
+		}
+	},
+	{
+		"name": "Transgenderism",
+		"desc": "Transgenderists believe that anyone can be whatever gender they please, regardless of dysphoria.",
+		"stats": {
+			[Qs.TWO_GENDERS]: a.S_DISAGREE,
+			[Qs.PROUD]: a.AGREE,
+			[Qs.ABOLISH_GENDER]: a.NEUTRAL,
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_DISAGREE,
+			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE,
+		}
+	},
+	{
+		"name": "Radical Transgenderism",
+		"desc": "Radical transgenderists are transgenderists, but to a more extreme extent. They usually believe in the insertion of transness into everyday life, such as mandatory inclusive language, and believe that sex organs are inherently genderless and could be on anybody.",
+		"stats": {
+			[Qs.TWO_GENDERS]: a.S_DISAGREE,
+			[Qs.PROUD]: a.S_AGREE,
+			[Qs.ABOLISH_GENDER]: a.P_AGREE,
+			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_DISAGREE,
+			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE,
+		}
+	},
 ];

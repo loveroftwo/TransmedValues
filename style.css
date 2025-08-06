@@ -46,11 +46,12 @@ p.question {
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
-    min-height: 144pt;
+    min-height: 60pt;
+    max-height: 100pt;
     background-color: #eeeeee;
-    padding: 16pt;
+    padding: 4pt;
     border-radius: 16pt;
-    font-size: 36pt;
+    font-size: 26pt;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +63,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 72pt;
     text-align: center;
-    line-height: 72pt;
+    line-height: 60pt;
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
@@ -96,7 +97,7 @@ div.center {
     margin: auto;
 }
 img.quadcolumn {
-    width: 23.75%;
+    width: 14%;
     transition: transform .3s;
 }
 img.quadcolumn:hover {
@@ -142,8 +143,12 @@ div.axis_name {
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
 .agree { background: #4caf50; }
 .agree:hover, .agree:focus { background: #29942e; }
+.somewhatAgree { background: #7fc982; }
+.somewhatAgree:hover, .somewhatAgree:focus { background: #5eb562; }
 .neutral { background: #949494; }
 .neutral:hover, .neutral:focus { background: #656565; }
+.somewhatDisagree { background: #e67b73; }
+.somewhatDisagree:hover, .somewhatDisagree:focus { background: #de5e54; }
 .disagree { background: #f44336; }
 .disagree:hover, .disagree:focus { background: #d6271a; }
 .stronglyDisagree { background: #b71c1c; }
@@ -222,49 +227,79 @@ div.text-wrapper {
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    color: #222222;
+    color: #222222; 
     display: inline-block;
 }
-div.equality {
+div.binary {
     background-color: #f44336;
     text-align: left;
     border-right-style: solid;
 }
-div.wealth {
+
+div.non_binary {
     background-color: #00897b;
     text-align: right;
     border-left-style: solid;
 }
-div.liberty {
-    background-color: #ffeb3b;
-    text-align: left;
-    border-right-style: solid;
-}
-div.authority {
-    background-color: #3f51b5;
-    text-align: right;
-    border-left-style: solid;
-}
-div.peace {
+
+div.loose {
     background-color: #03a9f4;
     text-align: right;
     border-left-style: solid;
 }
-div.might {
+
+div.strict {
     background-color: #ff9800;
     text-align: left;
     border-right-style: solid;
 }
-div.progress {
+
+div.protection {
+    background-color: #ffeb3b;
+    text-align: left;
+    border-right-style: solid;
+}
+
+div.abandonment {
+    background-color: #3f51b5;
+    text-align: right;
+    border-left-style: solid;
+}
+div.pride {
     background-color: #9c27b0;
     text-align: right;
     border-left-style: solid;
 }
-div.tradition {
+div.shame {
     background-color: #8bc34a;
     text-align: left;
     border-right-style: solid;
 }
+
+div.tolerance {
+    background-color: #40c34a;
+    text-align: right;
+    border-left-style: solid;
+}
+
+div.intolerance {
+    background-color: #732724;
+    text-align: left;
+    border-right-style: solid;
+}
+
+div.unity {
+    background-color: #ff8718;
+    text-align: right;
+    border-left-style: solid;
+}
+
+div.disunity {
+    background-color: #b4ffff;
+    text-align: left;
+    border-right-style: solid;
+}
+
 span.weight-300 {
     font-weight: 300;
 }
