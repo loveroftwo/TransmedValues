@@ -7,24 +7,25 @@ export const Qs = {
 	TRANS_NOT_LESS_TRANS: 6,
 	RED_FLAG_ANDRO_M: 7,
 	DUOSEX_NULLSEX: 8,
+	GENDER_ROLES: 9,
 }
 
 export const questions = [
 	/*
 	{ "question": "Placeholder", "effect": { "binary": 0, "strict": 0, "pride": 0, "protection": 0, "tolerance": 0, "unity": 0}},
 	*/
-	{ "question": "It is not possible to get the trans label back; we should just find a new one.", "effect": { "protection": -1}},
 	{ "question": "Genital dysphoria is required to be transsexual.", "effect": { "strict": 1 }, id: Qs.GENITAL_DYSPHORIA_REQUIRED },
+	{ "question": "Transsexuals should try to hide it as much as possible, for the betterment of themselves and society.", "effect": { "pride": -1 } },
+	{ "question": "It is not possible to get the trans label back; we should just find a new one.", "effect": { "protection": -1}},
 	{ "question": "I am proud to be trans.", "effect": { "pride": 1 }, id: Qs.PROUD },
 	{ "question": "Most people are straight, so the fact that so many \"transgender men\" nowadays are androphilic is already a red flag that they're not actually transsexuals.", "effect": { "tolerance": -1 }, id: Qs.RED_FLAG_ANDRO_M },
 	{ "question": "There are only two genders.", "effect": { "binary": 1 }, id: Qs.TWO_GENDERS },
-	{ "question": "Transsexuals should try to hide it as much as possible, for the betterment of themselves and society.", "effect": {"pride": -1} },
 	{ "question": "Duosex and nullsex are valid identities.", "effect": { "binary": -1}, id: Qs.DUOSEX_NULLSEX },
 	{ "question": "Everyone is non-binary to an extent.", "effect": { "binary": -1 } },
 	{ "question": "Assimilation is a crucial aspect of transsexual liberation.", "effect": { "pride": -1 } },
 	{ "question": "Gender should be abolished.", "effect": { "binary": -1 }, id: Qs.ABOLISH_GENDER },
 	{ "question": "The use of the word \"transsexual\" offends me.", "effect": { "protection": -1 } },
-	{ "question": "The best way to protect the rights of transsexuals is to get as many people to see our side as possible, regardless of their prior views.", "effect": { "unity": 1 } },
+	{ "question": "The best way to protect the rights of transsexuals is to get as many people to see our side as possible, regardless of their views.", "effect": { "unity": 1 } },
 	{ "question": "A transsexual isn't \"less trans\" because they're gay.", "effect": { "tolerance": 1 }, id: Qs.TRANS_NOT_LESS_TRANS },
 	{ "question": "I prefer the term \"sex dysphoria\" over \"gender dysphoria\".", "effect": {"strict": 1} },
 	{ "question": "Iran isn't transmedicalist enough.", "effect": { "strict": 1 }, id: Qs.IRAN_NOT_TRANSMED_ENOUGH },
@@ -36,6 +37,7 @@ export const questions = [
 	{ "question": "Cutting ties with \"extremists\" isn't as important as transsexual liberation, if at all.", "effect": { "unity": 1} },
 	{ "question": "I find it amusing when homosexuals are transphobic.", "effect": { "tolerance": -1} },
 	{ "question": "It isn't contradictory for a transsexual to be far-left.", "effect": { "unity": 1} },
-	{ "question": "It isn't contradictory for a transsexual to be far-right.", "effect": { "unity": 1} },
-	{ "question": ".", "effect": { "unity": 1} },
+	{ "question": "It isn't contradictory for a transsexual to be far-right.", "effect": { "unity": 1 } },
+	{ "question": "It is very concerning that more and more people calling themselves trans are also gay or bisexual.", "effect": { "tolerance": -1 } },
+	{ "question": "Transsexuals should ideally take on the societal roles of their target sex in their culture; same for non-transsexuals.", "effect": {}, id: Qs.GENDER_ROLES },
 ];

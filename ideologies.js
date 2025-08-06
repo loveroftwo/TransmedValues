@@ -22,6 +22,7 @@ export const ideologies = [
 			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.NEUTRAL,
 			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
 			[Qs.RED_FLAG_ANDRO_M]: a.P_DISAGREE,
+			[Qs.GENDER_ROLES]: a.DISAGREE,
 		}
 	},
 	{
@@ -35,6 +36,7 @@ export const ideologies = [
 			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_AGREE,
 			[Qs.TRANS_NOT_LESS_TRANS]: a.AGREE,
 			[Qs.RED_FLAG_ANDRO_M]: a.AGREE,
+			[Qs.GENDER_ROLES]: a.S_AGREE,
 		}
 	},
 	{
@@ -47,7 +49,9 @@ export const ideologies = [
 			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.P_DISAGREE,
 			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
 			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
-			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE
+			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE,
+			[Qs.DUOSEX_NULLSEX]: a.AGREE,
+			[Qs.GENDER_ROLES]: a.DISAGREE,
 		}
 	},
 	{
@@ -58,18 +62,19 @@ export const ideologies = [
 			[Qs.ABOLISH_GENDER]: a.S_AGREE,
 			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_DISAGREE,
 			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
-			[Qs.TRANS_NOT_LESS_TRANS]: a.S_DISAGREE,
-			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE
+			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
+			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE,
+			[Qs.GENDER_ROLES]: a.S_DISAGREE,
 		}
 	},
 	{
 		"name": "Blanchardism",
-		"desc": "Followers of Ray Blanchard's school of thought in terms of transsexuality (Blanchardians) believe that (MtF) trans people can be separated into two categories: HSTS (androphilic) and AGP (gynephilic).",
+		"desc": "Followers of Ray Blanchard's school of thought in terms of transsexuality (Blanchardians) believe that (MtF) trans people and trans-identified people can be separated into two categories: HSTS (androphilic) and AGP (gynephilic, usually \"not really trans\").",
 		"stats": {
 			[Qs.PROUD]: a.DISAGREE,
 			[Qs.ABOLISH_GENDER]: a.DISAGREE,
 			[Qs.GENITAL_DYSPHORIA_REQUIRED]: a.S_AGREE,
-			[Qs.TRANS_NOT_LESS_TRANS]: a.S_DISAGREE,
+			[Qs.TRANS_NOT_LESS_TRANS]: a.DISAGREE,
 			[Qs.RED_FLAG_ANDRO_M]: a.S_AGREE
 		}
 	},
@@ -84,6 +89,7 @@ export const ideologies = [
 			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
 			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
 			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE,
+			[Qs.GENDER_ROLES]: a.DISAGREE,
 		}
 	},
 	{
@@ -97,6 +103,7 @@ export const ideologies = [
 			[Qs.IRAN_NOT_TRANSMED_ENOUGH]: a.S_DISAGREE,
 			[Qs.TRANS_NOT_LESS_TRANS]: a.S_AGREE,
 			[Qs.RED_FLAG_ANDRO_M]: a.S_DISAGREE,
+			[Qs.GENDER_ROLES]: a.S_DISAGREE,
 		}
 	},
 	/*{
