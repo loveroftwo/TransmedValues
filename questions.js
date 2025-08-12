@@ -18,6 +18,8 @@ export const questions = [
 	*/
 	{ "question": "Genital dysphoria is required to be transsexual.", "effect": { "strict": 1 }, id: Qs.GENITAL_DYSPHORIA_REQUIRED },
 	{ "question": "Transsexuals should try to assimilate as their target sex and hide their transsexuality as much as possible, for the betterment of themselves and society.", "effect": { "pride": -1 }, id: Qs.ASSIMILATE },
+	{ "question": "It isn't contradictory for a transsexual to be far-left.", "effect": { "unity": 1 } },
+	{ "question": "It isn't contradictory for a transsexual to be far-right.", "effect": { "unity": 1 } },
 	{ "question": "It is not possible to get the trans label back; we should just find a new one.", "effect": { "protection": -1}},
 	{ "question": "I am proud to be trans.", "effect": { "pride": 1 }, id: Qs.PROUD },
 	{ "question": "Most people are straight, so the fact that so many \"transgender men\" nowadays are androphilic is already a red flag that they're not actually transsexuals.", "effect": { "tolerance": -1 }, id: Qs.RED_FLAG_ANDRO_M },
@@ -38,8 +40,6 @@ export const questions = [
 	{ "question": "Cultural third-genders have absolutely no merit.", "effect": { "binary": 1} },
 	{ "question": "Cutting ties with \"extremists\" isn't as important as transsexual liberation, if at all.", "effect": { "unity": 1} },
 	{ "question": "I find it amusing when homosexuals are transphobic.", "effect": { "tolerance": -1} },
-	{ "question": "It isn't contradictory for a transsexual to be far-left.", "effect": { "unity": 1} },
-	{ "question": "It isn't contradictory for a transsexual to be far-right.", "effect": { "unity": 1 } },
 	{ "question": "It is very concerning that more and more people calling themselves trans are also gay or bisexual.", "effect": { "tolerance": -1 } },
 	{ "question": "Transsexuals should ideally take on the societal roles of their target sex in their culture; same for non-transsexuals.", "effect": {}, id: Qs.GENDER_ROLES },
 ];
